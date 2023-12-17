@@ -2,6 +2,40 @@
     display: grid;
     place-items: center;
 }
+.subContainer{
+    width: 30%;
+    display: grid;
+    place-items: center;
+    background-color: aqua;
+}
+.button1{
+    background: #626fe6;
+    color: #ccc;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 13px;
+}
+.dataInput{
+    width: 250px;
+    padding: 3px;
+    background: #43496e;
+    /* margin: 5px; */
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+    border: none;
+    outline: none;
+}
 .taskwrapper{
     display: flex;
+    align-items: center; 
 }
+.tasks{
+    width: 350px;
+    display: flex;
+    
+}
+/* .title{
+    margin-left: 2rem;
+} */
